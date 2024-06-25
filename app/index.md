@@ -1,7 +1,7 @@
 ---
 homepage: true
 layout: product
-title: A design history for your GOV.UK service
+title: A design history for the DCMS Short term lets service
 description: A permanent record of how your service has developed over time.
 pagination:
   data: collections.all

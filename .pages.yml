@@ -2,7 +2,7 @@ content:
   - name: posts
     label: Posts
     type: collection
-    path: "_site/app/posts"
+    path: "app/posts"
     view:
       fields: [title, published, date]
     fields:

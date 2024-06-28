@@ -20,16 +20,6 @@ module.exports = function (eleventyConfig) {
   // Passthrough
   eleventyConfig.addPassthroughCopy({ "./app/images": "." });
 
-  // Different folders
-  eleventyConfig.addCollection("architectural-decisions", (collection) => {
-    return collection.getFilteredByGlob(
-      "app/posts/architectural-decisions/*.md"
-    );
-  });
-  eleventyConfig.addCollection("design-decisions", (collection) => {
-    return collection.getFilteredByGlob("app/posts/design-decisions/*.md");
-  });
-
   // Config
   return {
     dataTemplateEngine: "njk",
